@@ -19,23 +19,30 @@ def test():
     word = user_input("Random word: ")
     print(word)
 
-noun1 = user_input("Noun: ")
-noun2 = user_input("Noun: ")
-noun3 = user_input("Noun: ")
-noun4 = user_input("Noun: ")
-noun5 = user_input("Part of Body: ")
-noun6 = user_input("Part of Body: ")
-noun7 = user_input("Plural Noun: ")
-noun8 = user_input("Plural Noun: ")
-noun9 = user_input("Plural Noun: ")
-noun10 = user_input("Plural Noun: ")
+# noun1 = user_input("Noun: ")
+# noun2 = user_input("Noun: ")
+# noun3 = user_input("Noun: ")
+# noun4 = user_input("Noun: ")
+# noun5 = user_input("Part of Body: ")
+# noun6 = user_input("Part of Body: ")
+# noun7 = user_input("Plural Noun: ")
+# noun8 = user_input("Plural Noun: ")
+# noun9 = user_input("Plural Noun: ")
+# noun10 = user_input("Plural Noun: ")
+#
+# adj1 = user_input("Adjective: ")
+# adj2 = user_input("Adjective: ")
+# adj3 = user_input("Adjective: ")
+# adj4 = user_input("Adjective: ")
 
-adj1 = user_input("Adjective: ")
-adj2 = user_input("Adjective: ")
-adj3 = user_input("Adjective: ")
-adj4 = user_input("Adjective: ")
+nouns = [user_input("Noun: ") for noun in range(4)]
+plural_nouns = [user_input("Plural Noun: ") for pnoun in range(4)]
+adjectives = [user_input("Adjective: ") for adj in range(4)]
 
 verb1 = user_input("Verb: ")
-verb2 = user_input("Verb ending in 'ing'")
+verb2 = user_input("Verb ending in 'ing': ")
+
+body1 = user_input("Part of Body: ")
+body2 = user_input("Part of Body: ")
 
 num = user_input("Number: ")
