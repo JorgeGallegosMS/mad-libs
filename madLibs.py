@@ -19,4 +19,23 @@ def test():
     word = user_input("Random word: ")
     print(word)
 
-test()
+noun1 = user_input("Noun: ")
+noun2 = user_input("Noun: ")
+noun3 = user_input("Noun: ")
+noun4 = user_input("Noun: ")
+noun5 = user_input("Part of Body: ")
+noun6 = user_input("Part of Body: ")
+noun7 = user_input("Plural Noun: ")
+noun8 = user_input("Plural Noun: ")
+noun9 = user_input("Plural Noun: ")
+noun10 = user_input("Plural Noun: ")
+
+adj1 = user_input("Adjective: ")
+adj2 = user_input("Adjective: ")
+adj3 = user_input("Adjective: ")
+adj4 = user_input("Adjective: ")
+
+verb1 = user_input("Verb: ")
+verb2 = user_input("Verb ending in 'ing'")
+
+num = user_input("Number: ")
